@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model checkpoints / training artifacts
+checkpoints/
+**/checkpoints/
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Data/results you may not want tracked
+
+
+# Hugging Face / training state
+trainer_state.json
+optimizer.pt
+scheduler.pt
+rng_state.pth
+training_args.bin
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
